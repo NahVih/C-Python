@@ -1,0 +1,13 @@
+from cs50 import get_int
+j = -1
+while j < 0:
+    j = get_int("Height: ?\n")
+k = 0
+l = 0
+if j >= 0:
+    while k <= int(j):
+        print(" "*(int(j)-(k)), end="")
+        print("#"*k)
+        k += 1
+
+
